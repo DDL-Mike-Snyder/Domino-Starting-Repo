@@ -8,4 +8,4 @@ dataset = DatasetClient(token = token).get_dataset("dataset-images_dataset-6a4be
 # dataset.update(config=DatasetConfig(snapshot_id="68016814a206e098e0dd5884"))
 
 # list files in the dataset
-dataset.list_files()
+print(dataset.list_files())
